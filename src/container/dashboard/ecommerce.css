@@ -1,0 +1,64 @@
+th.ant-table-cell {
+  text-align: left !important;
+}
+.activity {
+  padding-top: 10px;
+  border-top: 1px solid #ebeef0;
+  justify-content: space-between;
+}
+.amount {
+  margin: 0 0 10.5px;
+  justify-content: space-between;
+}
+.folat-right {
+  float: right !important;
+  color: rgb(0, 140, 186);
+  cursor: pointer;
+}
+.viewSummary-p {
+  margin: 0 0 10.5px;
+}
+.table-td {
+  padding: 8px;
+  line-height: 1.4;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.print-source {
+  display: none;
+}
+
+body > .print-source {
+  display: block;
+}
+.actv_txt:first-child .activity {
+  border: none !important;
+  padding: 0;
+}
+.actv_txt h3 {
+  margin: 0;
+}
+.recent_activity_title {
+  height: 28px;
+}
+.recent_activity {
+  height: 69px;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 4px;
+}
+
+.top_selltab .ant-card {
+  min-height: 425px;
+}
+@media print {
+  .print-source {
+    display: block;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .mobilepad_frm {
+    margin: 85px 0 0 0 !important;
+  }
+}

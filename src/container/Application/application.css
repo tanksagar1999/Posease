@@ -1,0 +1,33 @@
+.ant-col.ant-form-item-label {
+  width: 100%;
+  text-align: left;
+}
+
+.ant-form-item {
+  margin-bottom: 1px !important;
+}
+
+table tbody tr td span {
+  border: 0 none;
+  font-weight: 500;
+  color: #272b41 !important;
+}
+
+table tbody tr td {
+  color: #272b41 !important;
+}
+
+table tbody tr td a span {
+  border: 0 none;
+  font-weight: 500;
+  color: #bd025d !important;
+}
+
+td.ant-table-cell.custom-td {
+  text-align: center !important;
+}
+.table-search-box .ant-input {
+  border-radius: 30px !important;
+  border: 1px solid #fff;
+  box-shadow: none;
+}

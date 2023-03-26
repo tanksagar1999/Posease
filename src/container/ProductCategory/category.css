@@ -1,0 +1,77 @@
+.ant-col.ant-form-item-label {
+  width: 100%;
+  text-align: left;
+}
+
+.ant-form-item {
+  margin-bottom: 1px !important;
+}
+
+table tbody tr td span {
+  border: 0 none;
+  font-weight: 500;
+  color: #272b41 !important;
+}
+
+table tbody tr td {
+  color: #272b41 !important;
+}
+
+form#dynamic_form_nest_item .ant-space-item {
+  width: 195px;
+}
+
+form#dynamic_form_nest_item .ant-space-item:last-child {
+  width: 60px;
+}
+
+table tbody tr td a span {
+  border: 0 none;
+  font-weight: 500;
+  color: #bd025d !important;
+}
+
+.ant-space {
+  flex-wrap: nowrap !important;
+}
+
+.input-text {
+  height: 35px;
+}
+
+td.ant-table-cell div .list-action {
+  border: 2px solid #db2e8f;
+  display: inherit;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 5px;
+}
+
+.btn-custom {
+  height: 31px !important;
+  font-size: 13px !important;
+}
+
+.ant-card-head-title span {
+  font-size: 14px !important;
+  margin-left: 0px !important;
+}
+
+/* td.ant-table-cell div .list-action:hover{
+  color: #fff !important;
+  background-color: #DB2E8F;
+} */
+
+.ant-list-split .ant-list-item {
+  border-bottom: none !important;
+}
+
+.hruRfX .ant-list-items li:not(:last-child) {
+  margin-bottom: -5px !important;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  height: auto !important;
+}

@@ -1,0 +1,138 @@
+.quantityies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quantityies.qucuentlft {
+  justify-content: left;
+}
+.qunatity-adjust {
+  font: 1.2em serif;
+  color: #565353;
+  padding: 1px 6px 0 7px;
+  border: 1px solid hsla(0, 1%, 40%, 0.35);
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+  .ant-page-header.ant-page-header-ghost.sell-current-pageheader {
+    width: 100% !important;
+  }
+  .category-col ul li a {
+    padding: 2px 8px !important;
+    word-break: break-word;
+  }
+  .ant-card.ant-card-bordered.category-card {
+    margin-right: 2px;
+  }
+  .ant-col.cart-sell-data.cart-col.ant-col-xs-24.ant-col-lg-10.ant-col-xl-10.ant-col-xxl-10 {
+    padding-left: 0;
+    display: inline-block;
+    margin: 15px 0;
+    width: 100%;
+  }
+  .ant-page-header.ant-page-header-ghost.sell-current-pageheader
+    .ant-page-header-heading {
+    justify-content: left !important;
+    align-items: baseline;
+  }
+  .ant-page-header.ant-page-header-ghost.sell-current-pageheader
+    .ant-page-header-heading-left {
+    display: block;
+    width: 100%;
+  }
+  .ant-page-header.ant-page-header-ghost.sell-current-pageheader
+    .sc-iybRtq.ftruMq
+    > div {
+    margin: 0 !important;
+  }
+  .ant-page-header.ant-page-header-ghost.sell-current-pageheader
+    .sc-iybRtq.ftruMq
+    > div
+    span.ant-input-affix-wrapper {
+    width: 100% !important;
+  }
+  .ant-picker.ant-picker-large.book_picker {
+    min-width: 100% !important;
+  }
+}
+.selectmod label {
+  height: inherit !important;
+  margin: 10px 0 0 0;
+}
+.tick-radio label {
+  color: #ccc !important;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  padding: 6px 8px !important;
+  height: inherit !important;
+  line-height: inherit !important;
+  margin: 5px 5px 4px 2px !important;
+}
+@media only screen and (max-width: 379px) {
+  .tick-radio label {
+    color: #ccc !important;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #ccc !important;
+    border-radius: 5px !important;
+    padding: 0px 8px !important;
+    height: inherit !important;
+    line-height: inherit !important;
+    margin: 5px 5px 4px 2px !important;
+  }
+}
+.tick-radio label span {
+  color: #000;
+}
+/* .tick-radio label span i {
+  margin-right: 5px;
+} */
+.tick-radio label:before {
+  content: inherit !important;
+}
+.tick-radio label:focus-within {
+  box-shadow: none !important;
+}
+.tick-checkbox span.ant-checkbox-inner {
+  display: none;
+}
+.tick-checkbox span.ant-checkbox-inner:after {
+  content: inherit !important;
+}
+.tick-checkbox::after {
+  content: inherit !important;
+}
+.tick-checkbox {
+  color: #000 !important;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #ccc !important;
+  padding: 6px 0 !important;
+  border-radius: 5px !important;
+  display: inline-block;
+  margin: 4px 6px 3px 0 !important;
+}
+.tick-checkbox .ant-checkbox {
+  display: none !important;
+}
+.book_picker {
+  min-width: 90% !important;
+}
+
+.book_picker input {
+  padding: 9px 0 9px 9px !important;
+}
+.is_debvs {
+  margin: 0 !important;
+}
+.borderUpper-top {
+  border-top: 1px solid #ebeef0;
+  padding: 6px 0px;
+  margin-top: 10px;
+}

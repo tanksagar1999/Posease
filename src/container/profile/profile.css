@@ -1,0 +1,77 @@
+.ant-col.ant-form-item-label {
+  width: 100%;
+  text-align: left;
+}
+
+.ant-form-item {
+  margin-bottom: 1px !important;
+}
+
+table tbody tr td span {
+  border: 0 none;
+  font-weight: 500;
+  color: #272b41 !important;
+}
+
+table tbody tr td {
+  color: #272b41 !important;
+}
+
+table tbody tr td a span {
+  border: 0 none;
+  font-weight: 500;
+  color: #bd025d !important;
+}
+
+
+
+.mobile_scrlogo br {
+  display: none;
+}
+.mobile_scrlogo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.mobile_scrlogo h1 {
+  font-size: 22px !important;
+  margin: 0 !important;
+}
+.mobile_scrlogo img {
+  width: 30px !important;
+  margin-right: 5px;
+}
+.point_mobile {
+  font-size: 30px;
+  margin: 16px 0 11px 0;
+  line-height: 40px;
+  font-weight: 600;
+
+}
+.point_mobile {
+  display: block;
+}
+.blong_clr a {
+  color: #008cba;
+}
+.blong_clr a:hover {
+  color: #008cba;
+}
+@media only screen and (max-width: 767px) {
+  .mobile_scrlogo {
+    justify-content: center;
+  }
+  .point_mobile{
+    font-size: 24px;
+    margin-bottom: 28px;  }
+}
+
+.login_lftbg {
+  background-size: cover;
+}
+.lgn_w100{
+  width: 100%;
+}
+.blong_clr {
+  margin-bottom: 10px;
+}

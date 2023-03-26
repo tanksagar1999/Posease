@@ -1,0 +1,17 @@
+.ant-select-selector {
+  width: 97px !important;
+  margin-top: -10px !important;
+  margin-bottom: -12px !important;
+}
+
+.CashFlowSelect:focus-visible {
+  border: none !important;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  position: relative;
+  background-color: #fff;
+  border: 0px solid !important;
+  border-radius: 4px;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}

@@ -1,0 +1,211 @@
+.ant-col.ant-form-item-label {
+  width: 100%;
+  text-align: left;
+}
+
+.ant-form-item {
+  margin-bottom: 1px !important;
+}
+
+table tbody tr td span {
+  border: 0 none;
+  font-weight: 500;
+  color: #272b41 !important;
+}
+
+table tbody tr td {
+  color: #272b41 !important;
+}
+
+table tbody tr td a span {
+  border: 0 none;
+  font-weight: 500;
+  color: #bd025d !important;
+}
+
+.receipts-search {
+  margin: 5px;
+}
+
+/* invoice */
+.heading {
+  font-size: 21px !important;
+
+  margin-bottom: -5px !important;
+}
+
+.invoice-table td {
+  padding-bottom: 8px !important;
+  padding-top: 8px !important;
+}
+
+.receipts-details {
+  margin-bottom: 4px !important;
+
+  font-size: 14px !important;
+  margin: 4px 0;
+  line-height: 22px;
+}
+
+.other-details {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.receipt-payment-transactions {
+  font-size: 13px;
+  padding: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+.text-muted {
+  color: #999;
+}
+
+.border-top {
+  border-top: 1px solid #ebeef0;
+  padding: 12px 0px;
+}
+
+.remove .ant-page-header-heading-title:after {
+  display: none;
+}
+
+.receipts-customer-details {
+  padding-top: 34px !important;
+}
+
+.splits-button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: inherit;
+  padding: 6px 12px 6px 12px;
+  font-size: 14px !important;
+}
+
+.splits-button {
+  padding: 6px 12px !important;
+  height: inherit !important;
+  border-radius: 5px !important;
+  color: #000 !important;
+  border: 1px solid #ccc !important;
+}
+
+button.ant-btn.ant-btn-default.splits-button:hover,
+button.ant-btn.ant-btn-default.splits-button:active,
+button.ant-btn.ant-btn-default.splits-button:focus {
+  border-color: transparent !important ;
+  color: #000 !important;
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+}
+
+.splits-button :hover {
+  color: black;
+  border: none;
+}
+
+.splits-button span {
+  font-weight: 500;
+}
+
+.color-change {
+  color: #999;
+}
+
+.invoice-letter-inner {
+  padding: 15px 16px !important;
+}
+
+.ant-page-header.custome-status-header {
+  padding: 13px 35px !important;
+}
+
+.go_back {
+  border: 1px solid #ccc !important;
+}
+
+.remove-border.ant-modal-footer {
+  padding: 10px 16px;
+  text-align: right;
+  background: transparent;
+  border-top: 0 !important;
+  border-radius: 0 0 4px 4px;
+}
+
+.receipt-payment-transactions p {
+  margin: 0;
+}
+
+.ant-table-cell.pricetgt {
+  text-align: right !important;
+}
+
+.receipts-top0 span.ant-page-header-heading-title {
+  margin-top: 0 !important;
+}
+
+.table_titles h2 {
+  margin: 0;
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid #e3e6ef;
+  font-size: 16px;
+}
+
+.table_titles {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.table_titles .title-counter {
+  margin: 0 !important;
+}
+
+.sercTable {
+  margin-left: 15px;
+}
+
+.addprdpls {
+  margin-left: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  .table_titles h2,
+  .table_titles .title-counter {
+    margin-bottom: 5px !important;
+  }
+
+  .table_titles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .title-counter {
+    padding: 0 !important;
+  }
+
+  .sercTable {
+    margin: 6px 0;
+  }
+
+  .card-nav.dashcard-nav ul {
+    display: inherit;
+  }
+
+  .card-nav.dashcard-nav ul li {
+    display: inline-block;
+  }
+
+  /* .card-nav.dashcard-nav ul li:first-child {
+    display: table;
+  } */
+  .sale_mobtitle .ant-card-head-wrapper {
+    align-items: flex-start;
+  }
+}

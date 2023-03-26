@@ -1,0 +1,220 @@
+.ant-col.ant-form-item-label {
+  width: 100%;
+  text-align: left;
+}
+
+.ant-form-item {
+  margin-bottom: 1px !important;
+}
+
+table tbody tr td span {
+  border: 0 none;
+  font-weight: 500;
+  color: #272b41 !important;
+}
+
+table tbody tr td {
+  color: #272b41 !important;
+}
+
+form#dynamic_form_nest_item .ant-space-item {
+  width: 195px;
+}
+
+form#dynamic_form_nest_item .ant-space-item:last-child {
+  width: 60px;
+}
+
+table tbody tr td a span {
+  border: 0 none;
+  font-weight: 500;
+  color: #bd025d !important;
+}
+
+.ant-space {
+  flex-wrap: nowrap !important;
+}
+
+.input-text {
+  height: 35px;
+}
+
+td.ant-table-cell div .list-action {
+  border: 2px solid #db2e8f;
+  display: inherit;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 5px;
+}
+
+.btn-custom {
+  height: 31px !important;
+  font-size: 13px !important;
+}
+
+.ant-card-head-title span {
+  font-size: 14px !important;
+}
+
+/* td.ant-table-cell div .list-action:hover{
+  color: #fff !important;
+  background-color: #DB2E8F;
+} */
+
+.ant-list-split .ant-list-item {
+  border-bottom: none !important;
+}
+
+.hruRfX .ant-list-items li:not(:last-child) {
+  margin-bottom: -5px !important;
+}
+
+.ant-page-header-heading-title-product-option {
+  margin-right: 12px;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ant-page-header-heading-title-product-option:after {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  content: "";
+  background: #e3e6ef;
+}
+
+.custom-search .ant-input-group-addon {
+  left: -48px !important;
+  display: inline-block !important;
+  border-radius: 30px !important;
+  z-index: 9;
+}
+
+.ant-select-selector .ant-select-selection-search .ant-input-affix-wrapper {
+  border: 1px solid #e3e6ef;
+}
+
+.ant-form-item-label > label::after {
+  content: " " !important;
+}
+
+.ant-form-item .ant-select-multiple .ant-select-selector {
+  padding: 5px 20px !important;
+  height: auto !important;
+  border: 1px solid #e3e6ef;
+}
+
+.ant-tree-select .ant-select-selector {
+  height: inherit !important;
+}
+
+.custom-label > label {
+  display: inline-block;
+  margin-right: 4px;
+  color: #ff4d4f;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+  content: "*";
+}
+
+.checkboxgroup > label.ant-checkbox-wrapper {
+  margin-left: 0px !important;
+}
+
+.ant-page-header.ant-page-header-ghost.import-header {
+}
+
+.ant-page-header.ant-page-header-ghost.preview-header {
+  padding: 0px 10px 0px 10px !important;
+  /* background-color: #fff !important;
+
+  border-bottom: 1px solid rgb(244, 245, 247) !important; */
+}
+
+.tab-custom-import {
+  margin-bottom: 4px !important;
+}
+
+.import-table-card .ant-card-body {
+  padding: 12px !important;
+}
+
+.message-class .ant-card-body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 67%;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 252px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+.custom-option-list td,
+.custom-option-list p {
+  padding: 0 8px !important;
+}
+
+.gutter-box label {
+  height: inherit !important;
+}
+
+.addfilter {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.addfilter label {
+  padding: 5px 0;
+}
+
+.sord_ordf input#sort_order {
+  position: relative;
+  top: -5px;
+  padding: 0;
+}
+
+.varient_boxs .ant-select-selector {
+  min-height: 46px !important;
+}
+
+.vari_h .ant-select-selector span.ant-select-selection-placeholder {
+  padding-left: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+  .mb-h0 .ant-col.ant-form-item-control .ant-form-item-control-input {
+    min-height: inherit;
+  }
+
+  .center_txcs {
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+  }
+
+  .center_serv {
+    text-align: center;
+    margin: 10px 0 0;
+  }
+
+  .table-toolbox-menu {
+    float: inherit !important;
+  }
+}

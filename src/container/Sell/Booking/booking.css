@@ -1,0 +1,34 @@
+.ant-col.ant-form-item-label {
+  width: 100%;
+  text-align: left;
+}
+
+.ant-form-item {
+  margin-bottom: 1px !important;
+}
+
+table tbody tr td span {
+  border: 0 none;
+  font-weight: 500;
+  color: #272b41 !important;
+}
+
+table tbody tr td {
+  color: #272b41 !important;
+}
+
+table tbody tr td a span {
+  border: 0 none;
+  font-weight: 500;
+  color: #bd025d !important;
+}
+.booking_tab {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.booking_tab .ant-page-header {
+  padding: 10px 0 22px !important;
+}
+.rec_booking .ant-page-header-heading-title {
+  margin-top: 0 !important;
+}

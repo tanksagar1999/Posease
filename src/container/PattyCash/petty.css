@@ -1,0 +1,52 @@
+.ant-col.ant-form-item-label {
+  width: 100%;
+  text-align: left;
+}
+
+.ant-form-item {
+  margin-bottom: 1px !important;
+}
+.PattyCashCategory {
+  /* height: 48px !important;
+  padding: 12px !important;
+  border-radius: 3px !important; */
+}
+table tbody tr td span {
+  border: 0 none;
+  font-weight: 500;
+  color: #272b41 !important;
+}
+
+table tbody tr td {
+  color: #272b41 !important;
+}
+
+table tbody tr td a span {
+  border: 0 none;
+  font-weight: 500;
+  color: #bd025d !important;
+}
+
+td.ant-table-cell.custom-td {
+  text-align: center !important;
+}
+.table-search-box .ant-input {
+  border-radius: 30px !important;
+  border: 1px solid #fff;
+  box-shadow: none;
+}
+.custom-radio input[type="radio"] {
+  display: none;
+}
+.custom-checkbox label {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  padding: 9px;
+  display: inline-block;
+  border-radius: 5px;
+}
+/* .ant-table-content table {
+  white-space: inherit !important;
+} */

@@ -1,0 +1,181 @@
+.ant-col.ant-form-item-label {
+  width: 100%;
+  text-align: left;
+}
+
+.ant-form-item {
+  margin-bottom: 1px !important;
+}
+
+table tbody tr td span {
+  border: 0 none;
+  font-weight: 500;
+  color: #272b41 !important;
+}
+
+table tbody tr td {
+  color: #272b41 !important;
+}
+
+form .ant-space-item {
+  width: 195px;
+}
+
+form .ant-space-item:last-child {
+  width: 60px;
+}
+
+form#default-form .ant-space-item:last-child {
+  width: 60px;
+}
+
+table tbody tr td a span {
+  border: 0 none;
+  font-weight: 500;
+  color: #bd025d !important;
+}
+
+.ant-space {
+  flex-wrap: nowrap !important;
+}
+
+.input-text {
+  height: 35px;
+}
+
+td.ant-table-cell div .list-action {
+  border: 2px solid #db2e8f;
+  display: inherit;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 5px;
+}
+
+.btn-custom {
+  height: 31px !important;
+  font-size: 13px !important;
+}
+
+.ant-card-head-title span {
+  font-size: 14px !important;
+}
+
+/* td.ant-table-cell div .list-action:hover{
+  color: #fff !important;
+  background-color: #DB2E8F;
+} */
+
+.ant-list-split .ant-list-item {
+  border-bottom: none !important;
+}
+
+.hruRfX .ant-list-items li:not(:last-child) {
+  margin-bottom: -5px !important;
+}
+
+.ant-select-selector {
+  height: 35px !important;
+}
+
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input)
+  .ant-select-selector {
+  height: 35px !important;
+  margin-top: 8px;
+}
+
+.gutter-box {
+  padding: 8px !important;
+}
+
+label.ant-checkbox-wrapper {
+  margin-left: 15px;
+}
+.products_lsttable label.ant-checkbox-wrapper {
+  margin-left: 0;
+}
+.ant-page-header.ant-page-header-ghost.sell-custom-pageheader {
+  padding: 0px 0px 0px 0px !important;
+}
+
+.ant-input-wrapper {
+  border-radius: 30px !important;
+}
+.ant-input-group-wrapper {
+  padding-left: 15px !important;
+}
+.table-search-box .ant-input {
+  border-radius: 30px !important;
+  border: 1px solid #fff;
+  box-shadow: none;
+}
+
+.ant-input-group-addon {
+  left: -48px !important;
+  display: inline-block !important;
+  border-radius: 30px !important;
+  z-index: 9;
+}
+
+.ant-input-search-button {
+  border: none;
+  background: transparent;
+}
+
+.ant-tag-checkable-checked.Orange {
+  background-color: orange !important;
+  color: #fff !important;
+}
+
+.ant-tag-checkable-checked.Red {
+  background-color: red !important;
+  color: #fff !important;
+}
+
+.ant-tag-checkable-checked.Purple {
+  background-color: purple !important;
+  color: #fff !important;
+}
+
+.ant-tag-checkable-checked.Green {
+  background-color: green !important;
+  color: #fff !important;
+}
+.ant-tag-checkable-checked.Blue {
+  background-color: blue !important;
+  color: #fff !important;
+}
+
+.custom-customer-list td {
+  padding: 0 8px !important;
+}
+@media only screen and (max-width: 600px) {
+  .products_list_fix {
+    left: 0 !important;
+  }
+}
+
+.custome-label label {
+  height: inherit;
+}
+.invoice-table td {
+  padding-bottom: 8px !important;
+  padding-top: 8px !important;
+}
+.custome-label div div {
+  padding: 3px 0px 9px 0px;
+  min-height: 0px;
+}
+.custome-table > div label {
+  height: 0;
+  padding: 3px 0px 0px 0px;
+}
+.custome-tag {
+  padding: 5px 15px !important;
+  font-size: 13px !important;
+  margin-bottom: 5px !important;
+}
+.receipt-color {
+  color: #008cba !important;
+}

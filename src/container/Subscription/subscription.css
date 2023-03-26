@@ -1,0 +1,7 @@
+.list-single:not(:last-child) {
+  margin-bottom: 2px !important;
+}
+
+.ant-page-header-heading-left {
+  float: left !important;
+}
