@@ -237,6 +237,9 @@ function createWindow() {
       : `file://${path.join(__dirname, "../build/print.html")}`
   );
   autoUpdater.checkForUpdates();
+  win.webContents.send("updateMessage", app.getVersion())
+ 
+console.log("sagartbjbjsdfsfsfsd",app.getVersion())
   win1.webContents.on("did-finish-load", function() {
     // try {
     ipcMain.on("PrintReceipt", (e, receiptDetails) => {
@@ -339,28 +342,23 @@ app.on("browser-window-blur", function() {
   globalShortcut.unregister("CommandOrControl+R");
   globalShortcut.unregister("F5");
 });
-autoUpdater.on("update-available", (info) => {
-  let elemE = document.getElementById("message");
-  elemE.innerHTML = `Update available. Current version ${app.getVersion()}`;
-  let pth = autoUpdater.downloadUpdate();
-  elemE.innerHTML = pth;
-});
+// autoUpdater.on("update-available", (info) => {
+//   autoUpdater.downloadUpdate();
+// });
 
-autoUpdater.on("update-not-available", (info) => {
-  let elemE = document.getElementById("message");
-  elemE.innerHTML = `No update available. Current version ${app.getVersion()}`;
-});
+// autoUpdater.on("update-not-available", (info) => {
+// console.log('update-not-available')
+// });
 
-/*Download Completion Message*/
-autoUpdater.on("update-downloaded", (info) => {
-  let elemE = document.getElementById("message");
-  elemE.innerHTML = `Update downloaded. Current version ${app.getVersion()}`;
-});
+// /*Download Completion Message*/
+// autoUpdater.on("update-downloaded", (info) => {
+//  console.log('update-downloaded')
+// });
 
-autoUpdater.on("error", (info) => {
-  let elemE = document.getElementById("message");
-  elemE.innerHTML = info;
-});
+// autoUpdater.on("error", (info) => {
+//   let elemE = document.getElementById("message");
+//   elemE.innerHTML = info;
+// });
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") {
     app.quit();
@@ -371,4 +369,30 @@ app.on("activate", () => {
   if (BrowserWindow.getAllWindows().length === 0) {
     createWindow();
   }
+});
+
+autoUpdater.on("update-available", (_event, releaseNotes, releaseName) => {
+	const dialogOpts = {
+		type: 'info',
+		buttons: ['Ok'],
+		title: 'Application Update',
+		message: process.platform === 'win32' ? releaseNotes : releaseName,
+		detail: 'A new version is being downloaded.'
+	}
+	dialog.showMessageBox(dialogOpts, (response) => {
+
+	});
+})
+
+autoUpdater.on("update-downloaded", (_event, releaseNotes, releaseName) => {
+	const dialogOpts = {
+		type: 'info',
+		buttons: ['Restart', 'Later'],
+		title: 'Application Update',
+		message: process.platform === 'win32' ? releaseNotes : releaseName,
+		detail: 'A new version has been downloaded. Restart the application to apply the updates.'
+	};
+	dialog.showMessageBox(dialogOpts).then((returnValue) => {
+		if (returnValue.response === 0) autoUpdater.quitAndInstall()
+	})
 });
